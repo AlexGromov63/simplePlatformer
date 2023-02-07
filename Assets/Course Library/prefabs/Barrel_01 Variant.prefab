@@ -27,8 +27,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.9465273, y: 1.3434764, z: 0.9177696}
-  m_Center: {x: -0.000000050837688, y: 0.6717382, z: -0.01437878}
+  m_Size: {x: 0.9465273, y: 1.3058834, z: 0.9177696}
+  m_Center: {x: -0.0000000501355, y: 0.6529417, z: -0.01437878}
 --- !u!114 &283110644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41,7 +41,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd12dca3c044ede4e8844f6f3f435228, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 18
+  speed: 10
+  speedModifier: 1.0002
 --- !u!1001 &9122472990325868882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53,17 +54,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_01 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 151586, guid: 95927758d3a4cef4ba6c4318f06876fd, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 406850, guid: 95927758d3a4cef4ba6c4318f06876fd, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 406850, guid: 95927758d3a4cef4ba6c4318f06876fd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.377742
+      value: 2.3875334
       objectReference: {fileID: 0}
     - target: {fileID: 406850, guid: 95927758d3a4cef4ba6c4318f06876fd, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.9563836
+      value: 1.6165493
       objectReference: {fileID: 0}
     - target: {fileID: 406850, guid: 95927758d3a4cef4ba6c4318f06876fd, type: 3}
       propertyPath: m_LocalScale.z
@@ -71,7 +76,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406850, guid: 95927758d3a4cef4ba6c4318f06876fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.978
+      value: 28.9826
       objectReference: {fileID: 0}
     - target: {fileID: 406850, guid: 95927758d3a4cef4ba6c4318f06876fd, type: 3}
       propertyPath: m_LocalPosition.y

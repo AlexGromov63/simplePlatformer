@@ -27,8 +27,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.45229924, y: 1.7886426, z: 3.1948159}
-  m_Center: {x: 0.01845349, y: 0.86167276, z: 0.5547815}
+  m_Size: {x: 0.45229924, y: 1.6625142, z: 3.1948159}
+  m_Center: {x: 0.01845349, y: 0.79860854, z: 0.5547815}
 --- !u!114 &178317554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41,7 +41,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd12dca3c044ede4e8844f6f3f435228, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 10
+  speedModifier: 1.0002
 --- !u!1001 &4556531013980762581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51,7 +52,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 151096, guid: 367149bd17c4d4d4e8868ec6a5cf8d45, type: 3}
       propertyPath: m_Name
-      value: Prop_Barrier02
+      value: Prop_Barrier02 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 151096, guid: 367149bd17c4d4d4e8868ec6a5cf8d45, type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 451094, guid: 367149bd17c4d4d4e8868ec6a5cf8d45, type: 3}
       propertyPath: m_LocalPosition.z
