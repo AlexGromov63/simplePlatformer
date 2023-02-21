@@ -10,8 +10,8 @@ public class moveLeft : MonoBehaviour
     {
         
     }
-    public float speed = 10;
-    public float speedModifier = 1;
+    public float speed = 10.0f;
+    public float speedModifier = 1.0005f;
     // Update is called once per frame
     void Update()
     {
